@@ -38,8 +38,9 @@ int main() {
 
         for (size_t i = 0; i < rows; i++) {
             for (size_t j = 0; j < lns[i]; j++) {
-                std::cout << result[i][j] << "\n";
+                std::cout << result[i][j];
             }
+            std::cout << "\n";
         }
 
         for (size_t i = 0; i < rows; i++) {
